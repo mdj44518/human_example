@@ -1,0 +1,38 @@
+1. 이클립스 자바 프로젝트를 생성
+2. 패키지를 3개 생성
+   - model
+     . Album class
+     . AlbumMgr class
+   - app
+     . AlbumApp class
+   - test 
+     . AlbumTest class
+     
+3. 각 클라스를 다음과 같이 작성
+  - Album class
+    . 이름
+    . Artist
+    . track길이(정수, 초)
+      옵션: 송 타이틀, 분_초단위의 트랙길이
+       
+    . 기능:
+      * 전체 트랙의 길이를 리턴
+      * 가장 긴 특랙의 길이를 리턴
+  - AlbumMgr class
+    . Album객체를 저장하는 collection
+    . 기능:
+      * 앨범을 추가하는 기능
+      * 앨범을 삭제하는 기능
+      * 앨범 이름을 입력받아 전체 트랙의 길이를 리턴
+      * 전체 앨범을 콘솔에 프린트
+      
+   - AlbumApp
+    * 파일로 주어진 입력 데이터를 통해 앨범 객체를 생성하고,
+     AlbumMgr객체로 추가함
+    * 모두 추가 후 전체 앨범을 콘솔에 프린트
+    
+   - AlbumTest
+    * 파일로 주어진 입력 데이터를 통해 앨범 객체를 생성하고,
+     AlbumMgr객체로 추가한 후, 첫번째 앨범이름 데이터를 검색하여
+     전체 트랙 길이를 리턴하는 메소드를 JUnit testcase로 테스트
+     

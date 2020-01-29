@@ -1,0 +1,27 @@
+h1 {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 30px;
+	color: #00ff00;
+	line-height: 100px;
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 10px 10px 5px #ff000020;
+	letter-spacing: 0.5em;
+	text-align: center;
+	background: blue;
+	height: 100px;
+}
+
+ul {
+	background: #111111;
+	height: 80px;
+	margin: 0px;
+}
+
+ul li {
+	line-height: 80px;
+	list-style-type: none;
+	display: inline;
+	margin: 50px;
+	color: #eeeeee;
+}

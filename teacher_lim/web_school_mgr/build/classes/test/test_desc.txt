@@ -1,0 +1,18 @@
+- 요청 URL:
+	/wsm/test/*
+	
+- 위 요청을 컨트롤하는 서블릿을 생성
+  . /wsm/test/add
+     -> 사용자 입력을 받는 폼을 생성하여 전달
+     -> input 타입요소들(radio) / select 
+     -> submit URL: /wsm/test/add method="post"
+        . 결과 페이지
+           	받은 입력값을 모두 표시 	
+  . /wsm/test/remove
+    -> 콘솔에 요청URL 출력
+    
+    
+URL
+
+/contextRoot/test/A
+

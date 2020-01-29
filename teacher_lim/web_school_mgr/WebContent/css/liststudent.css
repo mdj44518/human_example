@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	width: 100%;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+th {
+	padding: 2px 3px;
+	color: #FFFFFF;
+	background: #111111;
+	text-align: center;
+}
+
+tr {
+	border-bottom: 1px solid gray;
+}
+
+td {
+	padding: 2px 3px;
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background: #EEEEEE;
+}
+
+tr:nth-child(odd) {
+	background: #BBBBBB;
+}
+
+td a {
+	text-decoration: none;
+	color: black;
+}

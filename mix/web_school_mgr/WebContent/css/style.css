@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: 'Stylish', sans-serif;
+	background: #eeeeee;
+}
+
+h1 {
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	background: #485655;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0;
+}
+
+nav {
+	margin-top: 0;
+	height: 40px;
+	line-height: 40px;
+	background: black;
+	
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+
+#navright{
+	float: right;
+}
+
+footer h3 {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 0.8em;
+	margin-bottom: 0;
+}
+
